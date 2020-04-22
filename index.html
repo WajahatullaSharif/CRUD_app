@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CRUD app</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="CRUD.css">
+	<script src="CRUD.js"></script>
+</head>
+<body>
+	<div class="container">
+	<h2 class="heading">JavaScript CRUD app</h2>
+		<div class="addtasks">
+			<div class="row">
+				<div class="col-md-12">
+					<p>ADD TASKS</p>
+				</div>
+				<div class="col-md-10">
+					<input type="text" class="form-control" id="data">
+				</div>
+				<div class="col-md-2">
+					<button type="button" class="btn btn-primary" id="addUser" onclick="addTask();">Add Task</button>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<br>
+					<p>TO DO LIST</p>
+				</div>
+			</div>
+			<div class="List" id="todoList">
+				<!--<div class="row" style="margin-bottom: 15px;">
+					<div class="col-md-6 col-sm-12 col-xs-12">
+						<input type="text" class="form-control">
+					</div>
+					<div class="col-md-2 col-sm-4 col-xs-4">
+						<button type="button" class="btn btn-success">Edit</button>
+					</div>
+					<div class="col-md-2 col-sm-4 col-xs-4">
+						<button type="button" class="btn btn-success">Update</button>
+					</div>
+					<div class="col-md-2 col-sm-4 col-xs-4">
+						<button type="button" class="btn btn-danger">Delete</button>
+					</div>
+				</div>-->
+			</div>
+		</div>
+	</div>
+</body>
+</html>
